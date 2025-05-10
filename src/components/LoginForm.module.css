@@ -1,0 +1,85 @@
+/* LoginForm.module.css */
+
+.loginContainer {
+  position: absolute;
+  top: 70px;
+  right: 20px;
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  padding: 25px;
+  width: 320px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.loginForm h2 {
+  margin-top: 0;
+  color: #333;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.loginForm form {
+  display: flex;
+  flex-direction: column;
+}
+
+.loginForm label {
+  margin-bottom: 8px;
+  color: #555;
+  font-weight: 500;
+}
+
+.loginForm input {
+  padding: 12px;
+  margin-bottom: 18px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.loginForm input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.loginForm button {
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.loginForm button:hover {
+  background-color: #0056b3;
+}
+
+.remember {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.remember label {
+  margin-left: 8px;
+  color: #777;
+}
+
+.remember a {
+  color: #007bff;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.remember a:hover {
+  text-decoration: underline;
+}

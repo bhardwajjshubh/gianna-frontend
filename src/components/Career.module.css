@@ -1,0 +1,64 @@
+.careerPage {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.pageTitle {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.jobList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.jobCard {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.jobCard:hover {
+  transform: scale(1.05);
+}
+
+.jobTitle {
+  margin-top: 0;
+  color: #007bff;
+}
+
+.jobDescription {
+  color: #666;
+}
+
+.jobLocation {
+  font-weight: bold;
+  color: #333;
+}
+
+.jobType {
+  font-style: italic;
+  color: #555;
+}
+
+.applyButton {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.applyButton:hover {
+  background-color: #0056b3;
+}
