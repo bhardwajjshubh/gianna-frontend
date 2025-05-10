@@ -6,8 +6,8 @@ import styles from "./HeroSection.module.css";
 
 // Import images
 import image1 from "../assets/bottle-group.png";
-import image2 from "../assets/bottle1.png";
-import image3 from "../assets/bottle3.png";
+import image2 from "../assets/family1.png";
+import image3 from "../assets/family.png";
 import pioneersImage from "../assets/bottle2.png";
 import contactLogo from "../assets/logo1.png";
 
